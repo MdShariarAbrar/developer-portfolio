@@ -20,10 +20,25 @@ body{
     border: 0;
 }
 
+.btn-secondary{
+    padding:18px 36px ;
+    border-radius: 5px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    background: none;
+    margin-left: 30px;
+}
+
 
 /* header design */
 .header {
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* navbar design */
@@ -60,5 +75,42 @@ nav ul li a{
     font-weight: 400;
     color: #474747;
 
+}
+
+/* hero design */
+.hero-container{
+    display: flex;
+    padding: 47px 47px 0px 230px ;
+    justify-content: space-between;
+}
+.hero{
+    margin-top: 185px;
+}
+.hero-intro{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.hero-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.hero-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.header{
+    
+    
+}
+
+.profile-pic{
+    max-width: 584px;
+    max-height: 676px;
 }
 
