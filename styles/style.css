@@ -243,3 +243,38 @@ nav ul li a{
     margin: 50px auto;
     text-align: center;
 }
+
+/* footer design */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFF8F3;
+    align-items: flex-start;
+    
+}
+.social{
+    max-width: 50%;
+    
+}
+footer input, textarea{
+    display: block;
+    padding: 18px 30px;
+    color: #757575;
+    background-color: #FFF;
+    font-size: 16px;
+    font-weight: 400px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 460px;
+}
+footer .section-title{
+    text-align: left;
+}
+footer button{
+    margin-top: 25px;
+}
+.social-icon{
+    margin: 30px 25px 0 0;
+}
